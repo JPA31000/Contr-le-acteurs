@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>QCM - 20 Questions BTP</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      line-height: 1.6;
+    }
+    h2 {
+      color: #2c3e50;
+    }
+    .question {
+      margin-bottom: 20px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+    button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      background: #2c3e50;
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #34495e;
+    }
+    .correct {
+      color: green;
+    }
+    .incorrect {
+      color: red;
+    }
+    #codeSection {
+      margin-top: 30px;
+      padding: 15px;
+      background: #f8f9fa;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      width: 300px;
+    }
+  </style>
+</head>
+<body>
+  <h2>QCM - 20 Questions (BTP et Urbanisme)</h2>
+
+  <form id="quizForm">
+
+    <!-- Question 1 -->
+    <div class="question">
+      <p><b>1. Qui est le maître d’ouvrage (MOA) ?</b></p>
+      <label><input type="radio" name="q1" value="A"> A. L’architecte</label><br>
+      <label><input type="radio" name="q1" value="B"> B. Le client (collectivité ou particulier)</label><br>
+      <label><input type="radio" name="q1" value="C"> C. L’entreprise de travaux</label><br>
+      <label><input type="radio" name="q1" value="D"> D. Le bureau de contrôle</label>
+    </div>
+
+    <!-- Question 2 -->
+    <div class="question">
+      <p><b>2. Quelle mission correspond à l’étude de faisabilité ?</b></p>
+      <label><input type="radio" name="q2" value="A"> A. FAI</label><br>
+      <label><input type="radio" name="q2" value="B"> B. AVP</label><br>
+      <label><input type="radio" name="q2" value="C"> C. PRO</label><br>
+      <label><input type="radio" name="q2" value="D"> D. DCE</label>
+    </div>
+
+    <!-- Question 3 -->
+    <div class="question">
+      <p><b>3. Dans quelle phase se situe le dépôt du permis de construire ?</b></p>
+      <label><input type="radio" name="q3" value="A"> A. Conception</label><br>
+      <label><input type="radio" name="q3" value="B"> B. Programmation</label><br>
+      <label><input type="radio" name="q3" value="C"> C. Réalisation</label><br>
+      <label><input type="radio" name="q3" value="D"> D. Exploitation</label>
+    </div>
+
+    <!-- Question 4 -->
+    <div class="question">
+      <p><b>4. Quelles entreprises interviennent dans la phase de réalisation ?</b></p>
+      <label><input type="radio" name="q4" value="A"> A. Maçon, charpentier, plombier</label><br>
+      <label><input type="radio" name="q4" value="B"> B. Architecte, BET, économiste</label><br>
+      <label><input type="radio" name="q4" value="C"> C. Banque, assurance</label><br>
+      <label><input type="radio" name="q4" value="D"> D. Préfet, maire</label>
+    </div>
+
+    <!-- Question 5 -->
+    <div class="question">
+      <p><b>5. Que signifie OPR ?</b></p>
+      <label><input type="radio" name="q5" value="A"> A. Organisation du planning de réalisation</label><br>
+      <label><input type="radio" name="q5" value="B"> B. Opération Préalable à la Réception</label><br>
+      <label><input type="radio" name="q5" value="C"> C. Ordre de Paiement des Réserves</label><br>
+      <label><input type="radio" name="q5" value="D"> D. Organisation des Procédures Réglementaires</label>
+    </div>
+
+    <!-- Question 6 -->
+    <div class="question">
+      <p><b>6. Qui élabore le Plan Local d’Urbanisme (PLU) ?</b></p>
+      <label><input type="radio" name="q6" value="A"> A. L’État</label><br>
+      <label><input type="radio" name="q6" value="B"> B. La commune ou l’intercommunalité</label><br>
+      <label><input type="radio" name="q6" value="C"> C. Le promoteur immobilier</label><br>
+      <label><input type="radio" name="q6" value="D"> D. Le maître d’œuvre</label>
+    </div>
+
+    <!-- Question 7 -->
+    <div class="question">
+      <p><b>7. Le rôle principal du maître d’œuvre est :</b></p>
+      <label><input type="radio" name="q7" value="A"> A. Financer le projet</label><br>
+      <label><input type="radio" name="q7" value="B"> B. Concevoir et diriger les travaux</label><br>
+      <label><input type="radio" name="q7" value="C"> C. Contrôler la sécurité</label><br>
+      <label><input type="radio" name="q7" value="D"> D. Acheter le terrain</label>
+    </div>
+
+    <!-- Question 8 -->
+    <div class="question">
+      <p><b>8. Le DCE (Dossier de Consultation des Entreprises) est produit lors de :</b></p>
+      <label><input type="radio" name="q8" value="A"> A. La programmation</label><br>
+      <label><input type="radio" name="q8" value="B"> B. La consultation des entreprises</label><br>
+      <label><input type="radio" name="q8" value="C"> C. La réception</label><br>
+      <label><input type="radio" name="q8" value="D"> D. L’exploitation</label>
+    </div>
+
+    <!-- Question 9 -->
+    <div class="question">
+      <p><b>9. Le DOE signifie :</b></p>
+      <label><input type="radio" name="q9" value="A"> A. Dossier des Ouvrages Exécutés</label><br>
+      <label><input type="radio" name="q9" value="B"> B. Déclaration d’Ouverture de l’Entreprise</label><br>
+      <label><input type="radio" name="q9" value="C"> C. Dépôt Officiel des Études</label><br>
+      <label><input type="radio" name="q9" value="D"> D. Document d’Ordonnancement des Étapes</label>
+    </div>
+
+    <!-- Question 10 -->
+    <div class="question">
+      <p><b>10. Qui contrôle la sécurité et la santé sur un chantier ?</b></p>
+      <label><input type="radio" name="q10" value="A"> A. Le coordonnateur SPS</label><br>
+      <label><input type="radio" name="q10" value="B"> B. Le maître d’ouvrage</label><br>
+      <label><input type="radio" name="q10" value="C"> C. Le notaire</label><br>
+      <label><input type="radio" name="q10" value="D"> D. L’assureur</label>
+    </div>
+
+    <!-- Question 11 -->
+    <div class="question">
+      <p><b>11. Quel document fixe les règles de constructibilité dans une commune ?</b></p>
+      <label><input type="radio" name="q11" value="A"> A. PLU</label><br>
+      <label><input type="radio" name="q11" value="B"> B. CCTP</label><br>
+      <label><input type="radio" name="q11" value="C"> C. CCAG</label><br>
+      <label><input type="radio" name="q11" value="D"> D. PC</label>
+    </div>
+
+    <!-- Question 12 -->
+    <div class="question">
+      <p><b>12. Le CCAP est :</b></p>
+      <label><input type="radio" name="q12" value="A"> A. Cahier des Clauses Administratives Particulières</label><br>
+      <label><input type="radio" name="q12" value="B"> B. Cahier des Contrats d’Architectes Publics</label><br>
+      <label><input type="radio" name="q12" value="C"> C. Code de la Construction et de l’Architecture Professionnelle</label><br>
+      <label><input type="radio" name="q12" value="D"> D. Cahier des Charges d’Appel Public</label>
+    </div>
+
+    <!-- Question 13 -->
+    <div class="question">
+      <p><b>13. Le sigle BET signifie :</b></p>
+      <label><input type="radio" name="q13" value="A"> A. Bureau d’Études Techniques</label><br>
+      <label><input type="radio" name="q13" value="B"> B. Bureau d’Économie Territoriale</label><br>
+      <label><input type="radio" name="q13" value="C"> C. Base d’Études Topographiques</label><br>
+      <label><input type="radio" name="q13" value="D"> D. Bureau d’Enregistrement des Travaux</label>
+    </div>
+
+    <!-- Question 14 -->
+    <div class="question">
+      <p><b>14. Le sigle AVP signifie :</b></p>
+      <label><input type="radio" name="q14" value="A"> A. Avant-Projet</label><br>
+      <label><input type="radio" name="q14" value="B"> B. Avis Préliminaire</label><br>
+      <label><input type="radio" name="q14" value="C"> C. Accord de Vente Publique</label><br>
+      <label><input type="radio" name="q14" value="D"> D. Autorisation de Voirie Publique</label>
+    </div>
+
+    <!-- Question 15 -->
+    <div class="question">
+      <p><b>15. La mission PRO consiste à :</b></p>
+      <label><input type="radio" name="q15" value="A"> A. Définir le projet techniquement</label><br>
+      <label><input type="radio" name="q15" value="B"> B. Déposer le permis de construire</label><br>
+      <label><input type="radio" name="q15" value="C"> C. Lancer la consultation des entreprises</label><br>
+      <label><input type="radio" name="q15" value="D"> D. Réaliser le DOE</label>
+    </div>
+
+    <!-- Question 16 -->
+    <div class="question">
+      <p><b>16. Qui vérifie la conformité réglementaire d’un projet avant autorisation ?</b></p>
+      <label><input type="radio" name="q16" value="A"> A. La mairie</label><br>
+      <label><input type="radio" name="q16" value="B"> B. Le notaire</label><br>
+      <label><input type="radio" name="q16" value="C"> C. L’architecte</label><br>
+      <label><input type="radio" name="q16" value="D"> D. Le coordonnateur SPS</label>
+    </div>
+
+    <!-- Question 17 -->
+    <div class="question">
+      <p><b>17. L’OPC signifie :</b></p>
+      <label><input type="radio" name="q17" value="A"> A. Ordonnancement, Pilotage et Coordination</label><br>
+      <label><input type="radio" name="q17" value="B"> B. Organisation des Plans de Chantier</label><br>
+      <label><input type="radio" name="q17" value="C"> C. Office de Planification Communale</label><br>
+      <label><input type="radio" name="q17" value="D"> D. Ordre Professionnel des Constructeurs</label>
+    </div>
+
+    <!-- Question 18 -->
+    <div class="question">
+      <p><b>18. Quel acteur établit le CCTP ?</b></p>
+      <label><input type="radio" name="q18" value="A"> A. L’architecte ou le maître d’œuvre</label><br>
+      <label><input type="radio" name="q18" value="B"> B. Le notaire</label><br>
+      <label><input type="radio" name="q18" value="C"> C. Le maire</label><br>
+      <label><input type="radio" name="q18" value="D"> D. Le géomètre</label>
+    </div>
+
+    <!-- Question 19 -->
+    <div class="question">
+      <p><b>19. Le CCAG est :</b></p>
+      <label><input type="radio" name="q19" value="A"> A. Cahier des Clauses Administratives Générales</label><br>
+      <label><input type="radio" name="q19" value="B"> B. Code de la Construction des Appels Généraux</label><br>
+      <label><input type="radio" name="q19" value="C"> C. Cahier des Charges des Aménagements de Groupe</label><br>
+      <label><input type="radio" name="q19" value="D"> D. Code Civil des Architectes et Géomètres</label>
+    </div>
+
+    <!-- Question 20 -->
+    <div class="question">
+      <p><b>20. Quelle est la dernière étape d’un chantier avant l’exploitation ?</b></p>
+      <label><input type="radio" name="q20" value="A"> A. DOE</label><br>
+      <label><input type="radio" name="q20" value="B"> B. OPR</label><br>
+      <label><input type="radio" name="q20" value="C"> C. Réception</label><br>
+      <label><input type="radio" name="q20" value="D"> D. AVP</label>
+    </div>
+
+    <button type="button" onclick="calculateScore()">Valider</button>
+  </form>
+
+  <div id="score"></div>
+
+  <!-- Section code pour afficher les corrections -->
+  <div id="codeSection" style="display:none;">
+    <p><b>Entrez le code pour voir la correction :</b></p>
+    <input type="password" id="codeInput" placeholder="Code">
+    <button type="button" onclick="showCorrection()">Afficher</button>
+  </div>
+
+  <div id="results" style="display:none;"></div>
+
+  <script>
+    const correctAnswers = {
+      q1:"B", q2:"A", q3:"A", q4:"A", q5:"B",
+      q6:"B", q7:"B", q8:"B", q9:"A", q10:"A",
+      q11:"A", q12:"A", q13:"A", q14:"A", q15:"A",
+      q16:"A", q17:"A", q18:"A", q19:"A", q20:"C"
+    };
+
+    let noteSur20 = 0;
+
+    function calculateScore() {
+      let score = 0;
+      let totalQuestions = Object.keys(correctAnswers).length;
+
+      for (let q in correctAnswers) {
+        const answer = document.querySelector('input[name="'+q+'"]:checked');
+        if (answer && answer.value === correctAnswers[q]) {
+          score++;
+        }
+      }
+
+      noteSur20 = Math.round((score / totalQuestions) * 20);
+      document.getElementById("score").innerHTML = `<h3>Votre score : ${noteSur20}/20</h3>`;
+      document.getElementById("codeSection").style.display = "block";
+    }
+
+    function showCorrection() {
+      const code = document.getElementById("codeInput").value;
+      if (code === "123") {
+        let resultHTML = "<h3>Correction :</h3>";
+        resultHTML += "<p>1 → B. Client</p>";
+        resultHTML += "<p>2 → A. FAI</p>";
+        resultHTML += "<p>3 → A. Conception</p>";
+        resultHTML += "<p>4 → A. Maçon, charpentier, plombier</p>";
+        resultHTML += "<p>5 → B. Opération Préalable à la Réception</p>";
+        resultHTML += "<p>6 → B. Commune/intercommunalité</p>";
+        resultHTML += "<p>7 → B. Concevoir et diriger les travaux</p>";
+        resultHTML += "<p>8 → B. Consultation des entreprises</p>";
+        resultHTML += "<p>9 → A. Dossier des Ouvrages Exécutés</p>";
+        resultHTML += "<p>10 → A. Coordonnateur SPS</p>";
+        resultHTML += "<p>11 → A. PLU</p>";
+        resultHTML += "<p>12 → A. CCAP</p>";
+        resultHTML += "<p>13 → A. Bureau d’Études Techniques</p>";
+        resultHTML += "<p>14 → A. Avant-Projet</p>";
+        resultHTML += "<p>15 → A. Définir le projet techniquement</p>";
+        resultHTML += "<p>16 → A. La mairie</p>";
+        resultHTML += "<p>17 → A. Ordonnancement, Pilotage et Coordination</p>";
+        resultHTML += "<p>18 → A. Architecte / maître d’œuvre</p>";
+        resultHTML += "<p>19 → A. CCAG</p>";
+        resultHTML += "<p>20 → C. Réception</p>";
+        resultHTML += `<p><b>Note finale : ${noteSur20}/20</b></p>`;
+
+        document.getElementById("results").innerHTML = resultHTML;
+        document.getElementById("results").style.display = "block";
+      } else {
+        alert("Code incorrect !");
+      }
+    }
+  </script>
+</body>
+</html>
